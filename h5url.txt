@@ -27,7 +27,6 @@ for m in gazeteler:
         for i in range(yıl1, yıl2 + 1): 
             for j in range(1, 13): 
                 for gun in range(1, 32):  
-                    ay_str = f"{j:02d}"  # Örn: 1 → 01, 10 → 10
-                    gun_str = f"{gun:02d}"  # Örn: 5 → 05, 25 → 25
-
+                    ay_str = f"{j:02d}"  
+                    gun_str = f"{gun:02d}" 
                     print("{}/{}/{}-{}-{}".format(gaste, k, i, ay_str, gun_str))
